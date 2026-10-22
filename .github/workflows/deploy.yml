@@ -2,9 +2,7 @@ name: Build and publish addon
 
 on:
   push:
-    branches: [main]
-    paths:
-      - ".github/workflows/deploy.yml"
+    branches: [addon]
   workflow_dispatch:
 
 permissions:
